@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>logo</h1></a>
+        <nav id="nav"></nav>
+    </header>
+    <main class="sale_page">
+        <section class="grid">
+            <div>
+                <img src="img/logo.cover/main.jpg" alt="">
+                <h2>ჩვენს შესახებ</h2>
+                <p>
+                    ჩვენ ვართ წყვილი და სულ ცოტახნის წინ გადავწყვიტეთ დაგვეწყო რაიმე პატარა ბიზნესი, მცირე თანხით, თან ისეთი რაც გვაინტერესებდა. აღმოჩნდა რომ ვინტაჟური ტანსაცმლის ძიება და ყიდვა ორივეს ჰობად გვქონდა ქცეული, ხოდა ასე მხიარულად შევუდექით საქმეს. 
+                    სახელზეც ბევრი ვიფიქრეთ ორივემ, ბოლოს კი მივხვდით, რომ სახელი “ნარცისი”, როგორც მაღაზიისთვის შესაფერისი, ასევე ჩვენი ისტორიის ნაწილიც იყო. ამიტომ გთავაზობთ ნარცისულ ტანსაცმელს, ორიგინალურს და მხოლოდ თქვენზე მორგებულს.
+                    ვფიქრობთ, რომ ძალიან მცირე თანხებშიც შეგვიძლია ხალხს შევთავაზოთ გემოვნებიანი, უცხო ან ბრენდული ტანსაცმელი. 
+                    ჩვენთან ზომების არჩევა არ გაგიჭირდებათ, რადგან გვაქვს ყველა ზომისთვის გათვლილი სამოსი.
+                    ამ ყველაფრის გარდა სულ მალე ვაპირებთ დავამატოთ ჩვენივე ბრენდის “ნარცისი”-ს სამოსი, რომელსაც დავხატავთ და შევკერავთ ჩვენ.
+                </p>
+                
+            </div>
+        </section>
+        <p class="messagebutton" onclick="show()">მოგვწერეთ შეტყობინება</p>
+        <div class="messagebox" id="messagebox">
+            <div class="messageboxheader">
+                <p onclick="hide()">&#x2715;</p>
+            </div>
+            <div class="messagemain">
+                <input type="text" name="name" id="name" placeholder="სახელი">
+                <input type="email" name="email" id="email" placeholder="e-mail">
+                <textarea name="message" id="message" cols="30" rows="10"required>     </textarea>
+            </div>
+            <div class="messafefooter">
+                <p class="send" onclick="hide()">გაგზავნა</p>
+            </div>
+          
+        </div>
+    </main>
+    <footer>
+        <nav class="footernav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script/message.js"></script>
+    <script src="script/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body class="background_color">
+    <header>
+        <a href="index.html"><h1>logo</h1></a>
+        <nav id="nav"></nav>
+    </header>
+    <main>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/product/kabebi/5.jpg" alt="Dresses">
+            </div>
+            <div class="item">
+                <img src="img/product/kabebi/6.jpg" alt="Dresses">
+            </div>
+
+            <div class="item">
+                <img src="img/product/kabebi/3.jpg" alt="Dresses">
+            </div>
+
+            <div class="item">
+                <img src="img/product/kabebi/4.jpg" alt="Dresses">
+            </div>
+
+            <div class="item">
+                <img src="img/product/kostumo/1.jpg" alt="Suite">
+            </div>
+
+            <div class="item">
+                <img src="img/product/kostumo/2.jpg" alt="Suite">
+            </div>
+
+            <div class="item">
+                <img src="img/product/sharvali/1.jpg" alt="Trousers">
+            </div>
+
+            <div class="item">
+                <img src="img/product/sharvali/2.jpg" alt="Trousers">
+            </div>
+
+            <div class="item">
+                <img src="img/product/perangi/3.jpg" alt="Shirts Blouses">
+            </div>
+
+            <div class="item">
+                <img src="img/product/perangi/4.jpg" alt="Shirts Blouses">
+            </div>
+
+            <div class="item">
+                <img src="img/product/perangi/5.jpg" alt="Shirts Blouses">
+            </div>
+
+            <div class="item">
+                <img src="img/product/perangi/6.jpg" alt="Shirts Blouses">
+            </div>
+        </div>
+        <div class="narcissus_logo">
+            <img src="img/logo.cover/main.jpg" alt="narcissus">
+        </div>
+        <section class="collection">
+            <h2 class="satauri"><sub>&#45;New collection&#45;</sub></h2> 
+            <div class="katalogi">
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/kabebi/5.jpg" alt="kaba">
+                    </div>
+                    <h2><a href="#">Dresses</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/perangi/1.jpg" alt="perangi">
+                    </div>
+                    <h2><a href="#">Shirts &#38; Blouses</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/sharvali/1.jpg" alt="sharvali">
+                    </div>
+                    <h2><a href="#">Trousers</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/kostumo/1.jpg" alt="pijaki">
+                    </div>
+                    <h2><a href="#">Suite</a></h2>
+                </div>
+           
+            </div>         
+            
+        </section>
+        <div class="social">
+            <div class="fb">
+                <a href="https://www.facebook.com/narcissusloveyourself/" target="_blank" >
+                    <p>fb</p>
+                </a>
+            </div>
+            <div class="insta">
+                <a href="https://instagram.com/narcissus_loveyourself?igshid=YmMyMTA2M2Y=" target="_blank">      
+                    <p>insta</p>    
+                </a>
+            </div>
+        </div>
+        <p class="messagebutton" onclick="show()">მოგვწერეთ შეტყობინება</p>
+        <div class="messagebox" id="messagebox">
+            <div class="messageboxheader">
+                <p onclick="hide()">&#x2715;</p>
+            </div>
+            <div class="messagemain">
+                <input type="text" name="name" id="name" placeholder="სახელი">
+                <input type="email" name="email" id="email" placeholder="e-mail">
+                <textarea name="message" id="message" cols="30" rows="10"required>     </textarea>
+            </div>
+            <div class="messafefooter">
+                <p class="send" onclick="hide()">გაგზავნა</p>
+            </div>
+          
+        </div>
+    </main>
+    <footer>
+        <nav class="footernav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script/message.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/nav.js"></script>
+</body>
+</html>

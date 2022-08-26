@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>logo</h1></a>
+        <nav id="nav"></nav>
+    </header>
+    <main class="contact_page">
+        <div class="contact_us">
+            <h2>
+                Contact us
+            </h2>
+        </div>
+        <form action="contact">
+            <label for="contact_form"></label>
+            <input type="text" name="firstname" id="cont_firstname" placeholder="სახელი" required>
+
+            <input type="text" name="lastname" id="cont_lastname" placeholder="გვარი" required>
+
+            <label for="cont_email"></label>
+            <input type="email" name="email" id="cont_email" placeholder="e-mail" required>
+
+            <label for="location">შეტყობინება</label>
+            <textarea name="location" id="location" cols="30" rows="10" required></textarea>
+            <input type="submit" value="გაგზავნა" formaction="submit.html">
+        </form>
+
+        <div class="social">
+            <div class="fb">
+                <a href="https://www.facebook.com/narcissusloveyourself/" target="_blank" >
+                    <p>fb</p>
+                </a>
+            </div>
+            <div class="insta">
+                <a href="https://instagram.com/narcissus_loveyourself?igshid=YmMyMTA2M2Y=" target="_blank">      
+                    <p>insta</p>    
+                </a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <nav class="footernav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <a href="index.html"><h1>logo</h1></a>
+        <nav id="nav"></nav>
+   </header> 
+   <main class="catalog_page">
+        <section class="collection">
+            <h2 class="satauri"><sub> &#45; collection &#45;</sub></h2> 
+            <div class="katalogi">
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/kabebi/5.jpg" alt="kaba">
+                    </div>
+                    <h2><a href="#">Dresses</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/perangi/1.jpg" alt="perangi">
+                    </div>
+                    <h2><a href="#">Shirts &#38; Blouses</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/sharvali/1.jpg" alt="sharvali">
+                    </div>
+                    <h2><a href="#">Trousers</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/kostumo/1.jpg" alt="pijaki">
+                    </div>
+                    <h2><a href="#">Suite</a></h2>
+                </div>
+            </div> 
+        </section>   
+        <section class="collection">
+            <div class="katalogi">
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/bode/279882383_5157773934316386_1346124362975523925_n.jpg" alt="bode">
+                    </div>
+                    <h2><a href="#">Bode</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/kombinizoni/1.jpg" alt="kombinizoni">
+                    </div>
+                    <h2><a href="#">Overalls</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/korseti/1.jpg" alt="corset">
+                    </div>
+                    <h2><a href="#">Corset</a></h2>
+                </div>
+                <div class="collection_blok">
+                    <div class="img">
+                        <img src="img/product/jaket/280285826_5171926762901103_1283950114576530794_n.jpg" alt="jacket">
+                    </div>
+                    <h2><a href="#">Jacket</a></h2>
+                </div>
+            </div> 
+        </section> 
+        <div class="social">
+            <div class="fb">
+                <a href="https://www.facebook.com/narcissusloveyourself/" target="_blank" >
+                    <p>fb</p>
+                </a>
+            </div>
+            <div class="insta">
+                <a href="https://instagram.com/narcissus_loveyourself?igshid=YmMyMTA2M2Y=" target="_blank">      
+                    <p>insta</p>    
+                </a>
+            </div>
+        </div> 
+        <p class="messagebutton" onclick="show()">მოგვწერეთ შეტყობინება</p>
+        <div class="messagebox" id="messagebox">
+            <div class="messageboxheader">
+                <p onclick="hide()">&#x2715;</p>
+            </div>
+            <div class="messagemain">
+                <input type="text" name="name" id="name" placeholder="სახელი">
+                <input type="email" name="email" id="email" placeholder="e-mail">
+                <textarea name="message" id="message" cols="30" rows="10"required>     </textarea>
+            </div>
+            <div class="messafefooter">
+                <p class="send" onclick="hide()">გაგზავნა</p>
+            </div>
+          
+        </div> 
+   </main>
+   <footer>
+    <nav class="footernav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+   </footer>
+   <script src="script/message.js"></script>
+   <script src="script/nav.js"></script>
+
+</body>
+</html>

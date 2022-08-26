@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.owl-carousel   {
+    background-color: rgb(75, 72, 72, 0.5);
+    padding: 10px;
+}
+.items{
+    height: 200px;
+    overflow: hidden;
+}
+.owl-carousel button.owl-dot{
+    margin: 0 10px;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+}
+header h1{
+    background-image: url(../img/logo.cover/narcissus.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    color: #ffffff;
+    text-indent: -999999999999px;
+
+}
+header nav{
+    width: 400px;
+    margin: 0px auto;
+}
+header ul{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+        
+}
+header a{
+    padding: 5px  2px;
+    color: rgb(248, 242, 242);
+    position: relative;
+}
+header a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: width 1s; 
+}
+header a:hover::before{
+    width: 100%;
+}
+.background_color{
+    background-color: rgb(169, 148, 148);
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: calc(100% - 90px);overflow: hidden;
+    /* display: flex; */
+}
+.narcissus_logo{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+}
+.narcissus_logo img{
+    width: 100%;
+    border-radius: 50%;
+    border-style:solid;
+}
+.satauri{
+    margin: 50px auto;
+    width: 100%;
+    height: auto;   
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.katalogi{
+    display: flex;
+}
+.collection{    
+    width: 1500px;
+    height: 600px;
+    margin: 50px auto;
+    margin-bottom: 150px;
+}
+.collection .img{
+    width: 100%;
+    border-color: rgba(54, 52, 52);
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    overflow: hidden;
+    height: 436px;
+}
+.collection img{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+.collection .katalogi a{
+    color: #000000;   
+}
+.collection .katalogi a:hover{
+    color: #7a7979;
+}
+.collection_blok {
+    width: 25%;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+.collection_blok h2{
+    padding: 20px;
+}
+.footernav{
+    background-color: black; 
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+}
+.footernav ul{
+    width: 400px;
+    margin: 0px auto;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footernav a{
+    padding: 5px  2px;
+    color: rgb(248, 242, 242);
+    position: relative;
+}
+.footernav a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: width 1s; 
+}
+.footernav a:hover::before{
+    width: 100%;
+}
+
+/* /-----------collecton----------/ */
+
+.catalog_page h2{
+    color: #000000;
+
+}
+.catalog_page{
+    background-color: rgb(169, 148, 148);
+}
+
+/* /-----------about----------/ */
+.sale_page{
+    background-color: rgb(169, 148, 148);
+}
+.grid div{
+    width: 820px;
+    height: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+.grid div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.grid div h2{
+    margin: 50px;
+}
+.grid div p{
+    margin: 100px;
+}
+/* /-----------contact----------/ */
+
+.contact_page{
+    background-color: rgb(169, 148, 148);
+    /* width: 100%; */
+}
+.contact_page form{
+    width: 600px;
+    margin: auto;
+}
+.contact_us{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.contact_us h2{
+    margin: 150px auto;
+    font-size: 50px;
+    color: rgb(255, 251, 251);
+}
+main input{
+    background-color: rgba(255, 248, 248, 0.75);
+    color: #000000;
+    width: 100%;
+    margin-bottom: 38px;
+    padding: 22px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 3px solid #3f3d3d;
+}
+textarea {
+    background-color: rgba(253, 255, 255, 0.75);
+    resize: none;
+    width: 100%;
+    border-radius: 20px; 
+    border: none;
+    border-bottom: 3px solid #3f3d3d;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+}
+main form label{
+    font-weight: bold;
+    font-size: 20px;
+    color: #070707;
+}
+main form input[type="submit"] {
+    background-color: #996a7e;
+    margin: 70px auto;
+    cursor: pointer;
+}
+.fb,.insta{
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+.social{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 600px;
+    left: 0; 
+   
+}    
+.fb a,.insta a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+main .social p{
+    text-indent: -9999999px;
+}
+.fb{
+    background-image: url(../img/fb_insta/fb.png);
+}
+.fb :hover{
+    background-image:url(../img/fb_insta/hover/facebook.png) ;
+}
+.insta{
+    background-image: url(../img/fb_insta/instagram.png);
+}
+.insta :hover{
+    background-image: url(../img/fb_insta/hover/instagram.png);
+}
+
+
+/* /-----------submit----------/ */
+
+.submit_main{
+    background-color: rgb(169, 148, 148);
+}
+.submit_main section{
+    width: 500px;
+    margin: 10px auto;
+}
+.submit_main h2{
+    size: 50px;
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    margin-bottom: 132px;
+
+}
+.submit_main div{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 200px;
+}
+.submit_main div img{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+/* /-----------mesage----------/ */
+
+.messagebutton{
+    width: 300px;
+    padding: 15px;
+    background-color: #996a7e;
+    text-align: center;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    border-radius: 16px;
+}
+.messagebutton:hover, .send:hover{
+    cursor: pointer;
+    background-color: #996a7e;
+}
+.messageboxheader{
+    margin: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.send{
+    width: 300px;
+    padding: 15px;
+    background-color: #996a7e;
+    text-align: center;
+    border-radius: 16px;
+}
+.messagebox{
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    bottom: 170px;
+    right: 20px;
+    display: none;
+}
+
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 992px) {
+    .collection{
+        width: 100%;
+    }
+    .katalogi{
+        display: block;
+    }
+    .collection_blok{
+        float: left;
+        width: 46vw;
+        height: 60vw;
+        margin: 1.4vw;
+    }
+    .collection .img{
+        height: 53vw;
+    }
+    .collection_blok h2{
+        font-size: 4vw;
+    }
+    .grid div{
+        width: 100%;
+    }
+    .grid div p{
+        margin: 4vw;
+    }
+    .contact_page form{
+        width: 100%;
+        padding: 0vw 10vw;
+    }
+    .submit_main div{
+        width: 100%;
+    }
+    .submit_main section{
+        width: 100%;
+    }
+    .submit_main h2{
+        font-size: 4vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .collection{
+        width: 100%;
+    }
+    .katalogi{
+        display: block;
+    }
+    .collection_blok{
+        float: left;
+        width: 45vw;
+        height: 63vw;
+        margin: 1.2vw;
+    }
+    .collection .img{
+        height: 53vw;
+    }
+    .collection_blok h2{
+        font-size: 3vw;
+    }
+    .grid div{
+        width: 100%;
+    }
+    .grid div p{
+        margin: 4vw;
+    }
+    .contact_page form{
+        width: 100%;
+        padding: 0vw 8vw;
+    }
+    .submit_main div{
+        width: 100%;
+    }
+    .submit_main section{
+        width: 100%;
+    }
+    .submit_main h2{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .collection_blok{
+        float: left;
+        width: 97%;
+        height: 125vw;
+        margin: 1.2vw;
+    }
+    .collection .img {
+        height: 110vw;
+    }
+    .collection_blok h2{
+        font-size: 6vw;
+    }
+    .grid div{
+        width: 100%;
+    }
+    .grid div p{
+        margin: 4vw;
+    }
+    .contact_page form{
+        width: 100%;
+        padding: 0vw 7vw;
+    }
+    .submit_main div{
+        width: 100%;
+    }
+    .submit_main section{
+        width: 100%;
+    }
+    .submit_main h2{
+        font-size: 3.5vw;
+    }
+}
